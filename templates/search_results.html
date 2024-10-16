@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto px-6 lg:px-12 py-12">
+        <h1 class="text-4xl font-bold text-center mb-8">Search Results for "{{ query }}"</h1>
+
+        {% if articles %}
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {% for article in articles %}
+                    <div class="bg-white shadow-md rounded-lg p-6">
+                        <h2 class="text-2xl font-semibold mb-2">
+                            <a href="{{ article.link }}" target="_blank" class="text-green-600 hover:underline">
+                                {{ article.title }}
+                            </a>
+                        </h2>
+                        <p class="text-sm text-gray-500">By {{ article.authors }} on {{ article.date }}</p>
+                        <p class="mt-4">{{ article.abstract }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p class="text-center text-gray-600">No results found for your query. Try again with a different search term.</p>
+        {% endif %}
+
+        <div class="text-center mt-8">
+            <a href="/" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md">Back to Home</a>
+        </div>
+    </div>
+</body>
+
+</html>

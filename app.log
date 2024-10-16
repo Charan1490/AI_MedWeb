@@ -1,0 +1,796 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-236-691
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 130-236-691
+2024-10-16 13:42:11,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 13:42:11,619 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 13:42:11,619 - INFO -  * Restarting with stat
+2024-10-16 13:42:25,926 - WARNING -  * Debugger is active!
+2024-10-16 13:42:25,945 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 13:45:19,276 - INFO - 127.0.0.1 - - [16/Oct/2024 13:45:19] "GET / HTTP/1.1" 200 -
+2024-10-16 13:45:35,127 - INFO - Symptoms Input: Fever, sore throat, and muscle ache, Diagnosis Output: Patient symptoms: Fever, sore throat, and muscle ache. Provide a diagnosis and next steps.
+2024-10-16 13:45:35,127 - INFO - 127.0.0.1 - - [16/Oct/2024 13:45:35] "POST / HTTP/1.1" 200 -
+2024-10-16 13:45:57,264 - INFO - Symptoms Input: Fever, sore throat, and muscle ache, Diagnosis Output: Patient symptoms: Fever, sore throat, and muscle ache. Provide a diagnosis and next steps.
+2024-10-16 13:45:57,279 - INFO - 127.0.0.1 - - [16/Oct/2024 13:45:57] "POST / HTTP/1.1" 200 -
+2024-10-16 13:46:34,164 - INFO - Symptoms Input: Fever, sore throat, and muscle ache, Diagnosis Output: Patient symptoms: Fever, sore throat, and muscle ache. Provide a diagnosis and next steps.
+2024-10-16 13:46:34,165 - INFO - 127.0.0.1 - - [16/Oct/2024 13:46:34] "POST / HTTP/1.1" 200 -
+2024-10-16 13:47:27,496 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 13:47:27,497 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 13:47:27,501 - INFO -  * Restarting with stat
+2024-10-16 13:47:41,778 - WARNING -  * Debugger is active!
+2024-10-16 13:47:41,785 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 13:47:47,167 - INFO - Symptoms Input: Fever, sore throat, and muscle ache, Diagnosis Output: Patient symptoms: Fever, sore throat, and muscle ache. Provide a diagnosis and next steps.
+2024-10-16 13:47:47,171 - INFO - 127.0.0.1 - - [16/Oct/2024 13:47:47] "POST / HTTP/1.1" 200 -
+2024-10-16 13:47:50,439 - INFO - Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm., Treatment Plan: Patient: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm.. Provide treatment with medications and lifestyle changes.
+2024-10-16 13:47:50,440 - INFO - 127.0.0.1 - - [16/Oct/2024 13:47:50] "POST /treatment HTTP/1.1" 200 -
+2024-10-16 13:48:06,684 - INFO - Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm., Treatment Plan: Patient: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm.. Provide treatment with medications and lifestyle changes.
+2024-10-16 13:48:06,684 - INFO - 127.0.0.1 - - [16/Oct/2024 13:48:06] "POST /treatment HTTP/1.1" 200 -
+2024-10-16 13:49:39,972 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 13:49:39,972 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 13:49:39,972 - INFO -  * Restarting with stat
+2024-10-16 13:49:54,299 - WARNING -  * Debugger is active!
+2024-10-16 13:49:54,299 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 13:49:59,971 - INFO - Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm., Treatment Plan: Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm.
+
+Treatment Plan:  A combination of diet, exercise, and medication.
+2024-10-16 13:49:59,977 - INFO - 127.0.0.1 - - [16/Oct/2024 13:49:59] "POST /treatment HTTP/1.1" 200 -
+2024-10-16 13:50:07,427 - INFO - Symptoms Input: Fever, sore throat, and muscle ache, Diagnosis Output: Symptoms: Fever, sore throat, and muscle ache
+
+Possible Diagnosis:  Acute rheumatic fever.
+2024-10-16 13:50:07,428 - INFO - 127.0.0.1 - - [16/Oct/2024 13:50:07] "POST / HTTP/1.1" 200 -
+2024-10-16 13:51:00,848 - INFO - Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm, Treatment Plan: Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm
+
+Treatment Plan:  A combination of metformin, sitagliptin, and atorvastatin.
+2024-10-16 13:51:00,849 - INFO - 127.0.0.1 - - [16/Oct/2024 13:51:00] "POST /treatment HTTP/1.1" 200 -
+2024-10-16 13:58:19,115 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 13:58:19,115 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 13:58:19,115 - INFO -  * Restarting with stat
+2024-10-16 13:58:32,600 - WARNING -  * Debugger is active!
+2024-10-16 13:58:32,606 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 13:58:59,046 - INFO - Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm, Treatment Plan: Patient Data: 67-year-old with Type 2 diabetes and high cholesterol, experiencing numbness in the left arm
+
+Treatment Plan:  A combination of metformin, sitagliptin, and atorvastatin.
+2024-10-16 13:59:00,943 - INFO - 127.0.0.1 - - [16/Oct/2024 13:59:00] "POST /treatment HTTP/1.1" 200 -
+2024-10-16 13:59:12,695 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 13:59:12,695 - INFO - 127.0.0.1 - - [16/Oct/2024 13:59:12] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:04:03,769 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:04:03,769 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:04:03,769 - INFO -  * Restarting with stat
+2024-10-16 14:04:17,824 - WARNING -  * Debugger is active!
+2024-10-16 14:04:17,827 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:04:21,538 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:04:21,546 - INFO - 127.0.0.1 - - [16/Oct/2024 14:04:21] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:04:45,951 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:04:45,952 - INFO - 127.0.0.1 - - [16/Oct/2024 14:04:45] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:06:12,946 - INFO - Symptoms Input: Fever, sore throat, and muscle ache, Diagnosis Output: Symptoms: Fever, sore throat, and muscle ache
+
+Possible Diagnosis:  Acute rheumatic fever.
+2024-10-16 14:06:14,762 - INFO - 127.0.0.1 - - [16/Oct/2024 14:06:14] "POST / HTTP/1.1" 200 -
+2024-10-16 14:06:23,829 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:06:23,830 - INFO - 127.0.0.1 - - [16/Oct/2024 14:06:23] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:06:30,994 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:06:30,994 - INFO - 127.0.0.1 - - [16/Oct/2024 14:06:30] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:09:32,887 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:09:32,887 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:09:32,887 - INFO -  * Restarting with stat
+2024-10-16 14:09:47,323 - WARNING -  * Debugger is active!
+2024-10-16 14:09:47,328 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:09:56,353 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:09:56,365 - INFO - 127.0.0.1 - - [16/Oct/2024 14:09:56] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:10:06,642 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:10:06,643 - INFO - 127.0.0.1 - - [16/Oct/2024 14:10:06] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:10:15,604 - INFO - 127.0.0.1 - - [16/Oct/2024 14:10:15] "GET / HTTP/1.1" 200 -
+2024-10-16 14:10:21,314 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:10:21,315 - INFO - 127.0.0.1 - - [16/Oct/2024 14:10:21] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:13:12,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:13:12,676 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:13:12,677 - INFO -  * Restarting with stat
+2024-10-16 14:13:25,987 - WARNING -  * Debugger is active!
+2024-10-16 14:13:25,987 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:13:51,442 - INFO - 127.0.0.1 - - [16/Oct/2024 14:13:51] "GET / HTTP/1.1" 200 -
+2024-10-16 14:13:56,539 - INFO - 127.0.0.1 - - [16/Oct/2024 14:13:56] "POST /pubmed HTTP/1.1" 200 -
+2024-10-16 14:14:00,780 - ERROR - Unhandled Exception: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-10-16 14:14:00,782 - INFO - 127.0.0.1 - - [16/Oct/2024 14:14:00] "[35m[1mGET /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:15:37,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:15:37,036 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:15:37,036 - INFO -  * Restarting with stat
+2024-10-16 14:15:49,768 - WARNING -  * Debugger is active!
+2024-10-16 14:15:49,787 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:16:21,361 - INFO - 127.0.0.1 - - [16/Oct/2024 14:16:21] "GET / HTTP/1.1" 200 -
+2024-10-16 14:16:34,412 - INFO - 127.0.0.1 - - [16/Oct/2024 14:16:34] "POST /pubmed HTTP/1.1" 200 -
+2024-10-16 14:16:37,526 - ERROR - Unhandled Exception: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-10-16 14:16:37,527 - INFO - 127.0.0.1 - - [16/Oct/2024 14:16:37] "[35m[1mGET /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:19:58,002 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:19:58,002 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:19:58,020 - INFO -  * Restarting with stat
+2024-10-16 14:20:13,742 - WARNING -  * Debugger is active!
+2024-10-16 14:20:13,742 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:20:24,375 - INFO - 127.0.0.1 - - [16/Oct/2024 14:20:24] "GET / HTTP/1.1" 200 -
+2024-10-16 14:20:31,610 - ERROR - PubMed Fetch Error: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2024-10-16 14:20:31,611 - INFO - 127.0.0.1 - - [16/Oct/2024 14:20:31] "POST /pubmed HTTP/1.1" 200 -
+2024-10-16 14:20:43,514 - ERROR - PubMed Fetch Error: Couldn't find a tree builder with the features you requested: xml. Do you need to install a parser library?
+2024-10-16 14:20:43,515 - INFO - 127.0.0.1 - - [16/Oct/2024 14:20:43] "POST /pubmed HTTP/1.1" 200 -
+2024-10-16 14:21:53,012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:21:53,012 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:21:53,016 - INFO -  * Restarting with stat
+2024-10-16 14:22:07,578 - WARNING -  * Debugger is active!
+2024-10-16 14:22:07,578 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:22:13,369 - INFO - 127.0.0.1 - - [16/Oct/2024 14:22:13] "GET / HTTP/1.1" 200 -
+2024-10-16 14:22:20,775 - INFO - 127.0.0.1 - - [16/Oct/2024 14:22:20] "POST /pubmed HTTP/1.1" 200 -
+2024-10-16 14:22:23,701 - ERROR - Unhandled Exception: 405 Method Not Allowed: The method is not allowed for the requested URL.
+2024-10-16 14:22:23,702 - INFO - 127.0.0.1 - - [16/Oct/2024 14:22:23] "[35m[1mGET /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:28:05,295 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:28:05,295 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:28:05,295 - INFO -  * Restarting with stat
+2024-10-16 14:28:20,375 - WARNING -  * Debugger is active!
+2024-10-16 14:28:20,375 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:28:28,209 - INFO - 127.0.0.1 - - [16/Oct/2024 14:28:28] "GET / HTTP/1.1" 200 -
+2024-10-16 14:28:37,575 - INFO - 127.0.0.1 - - [16/Oct/2024 14:28:37] "POST /pubmed HTTP/1.1" 200 -
+2024-10-16 14:30:13,143 - INFO -  * Detected change in 'c:\\Users\\DELL\\Desktop\\ATMES final\\app.py', reloading
+2024-10-16 14:30:13,943 - INFO -  * Restarting with stat
+2024-10-16 14:30:29,635 - WARNING -  * Debugger is active!
+2024-10-16 14:30:29,647 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:31:52,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 14:31:52,345 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 14:31:52,350 - INFO -  * Restarting with stat
+2024-10-16 14:32:06,532 - WARNING -  * Debugger is active!
+2024-10-16 14:32:06,549 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 14:32:12,442 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 14:32:12,458 - INFO - 127.0.0.1 - - [16/Oct/2024 14:32:12] "[35m[1mPOST /pubmed HTTP/1.1[0m" 500 -
+2024-10-16 14:32:16,554 - INFO - 127.0.0.1 - - [16/Oct/2024 14:32:16] "GET / HTTP/1.1" 200 -
+2024-10-16 14:32:30,596 - INFO - Symptoms Input: Fever, sore throat, and muscle ache, Diagnosis Output: Symptoms: Fever, sore throat, and muscle ache
+
+Possible Diagnosis:  Acute rheumatic fever.
+2024-10-16 14:32:30,596 - INFO - 127.0.0.1 - - [16/Oct/2024 14:32:30] "POST / HTTP/1.1" 200 -
+2024-10-16 18:06:43,179 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 18:06:43,179 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 18:06:43,179 - INFO -  * Restarting with stat
+2024-10-16 18:06:57,963 - WARNING -  * Debugger is active!
+2024-10-16 18:06:57,971 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 18:07:02,051 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:07:02,162 - INFO - 127.0.0.1 - - [16/Oct/2024 18:07:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-10-16 18:07:02,287 - INFO - 127.0.0.1 - - [16/Oct/2024 18:07:02] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-16 18:07:02,304 - INFO - 127.0.0.1 - - [16/Oct/2024 18:07:02] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-16 18:07:02,365 - INFO - 127.0.0.1 - - [16/Oct/2024 18:07:02] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=sJJTss6zMkgylL5TgS1Y HTTP/1.1" 200 -
+2024-10-16 18:07:02,388 - INFO - 127.0.0.1 - - [16/Oct/2024 18:07:02] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-16 18:11:04,458 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 18:11:04,458 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 18:11:04,458 - INFO -  * Restarting with stat
+2024-10-16 18:11:18,397 - WARNING -  * Debugger is active!
+2024-10-16 18:11:18,397 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 18:11:27,839 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:27] "GET / HTTP/1.1" 200 -
+2024-10-16 18:11:27,861 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:27,871 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:27] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:27,871 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:27,871 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:27] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:27,871 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:27,871 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:27] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:27,871 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:27,871 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:27] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:28,180 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:28,180 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:28] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:28,327 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:28,327 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:11:35,731 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:35] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 18:11:35,758 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:35,758 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:11:48,605 - INFO - Symptoms Input: fever and sore throat
+, Diagnosis Output: Symptoms: fever and sore throat
+
+
+Possible Diagnosis:  Acute tonsillitis.
+2024-10-16 18:11:48,607 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:48] "POST / HTTP/1.1" 200 -
+2024-10-16 18:11:48,615 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:48,624 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:48] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:48,624 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:48,624 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:48] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:48,644 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:48,644 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:48] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:48,648 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:48,648 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:48] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:48,762 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:48,765 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:48] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:11:48,767 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:11:48,774 - INFO - 127.0.0.1 - - [16/Oct/2024 18:11:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:14:18,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 18:14:18,619 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 18:14:18,624 - INFO -  * Restarting with stat
+2024-10-16 18:14:35,517 - WARNING -  * Debugger is active!
+2024-10-16 18:14:35,529 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 18:14:57,026 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:57] "POST / HTTP/1.1" 200 -
+2024-10-16 18:14:57,037 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:14:57,046 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:14:57,046 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:57] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:14:57,046 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:57] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:14:57,046 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:14:57,053 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:57] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:14:57,053 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:14:57,053 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:57] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:14:57,135 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:14:57,135 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:57] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:14:57,149 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:14:57,149 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:14:58,513 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:58] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 18:14:58,536 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:14:58,536 - INFO - 127.0.0.1 - - [16/Oct/2024 18:14:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:15:07,153 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:07] "POST / HTTP/1.1" 200 -
+2024-10-16 18:15:07,174 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:07,174 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:07] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:07,174 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:07,174 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:07] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:07,190 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:07,193 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:07] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:07,193 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:07,193 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:07] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:07,256 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:07,271 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:07] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:07,279 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:07,287 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:15:16,070 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:16] "GET / HTTP/1.1" 200 -
+2024-10-16 18:15:16,106 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:16,106 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:16,106 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:16] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:16,106 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:16] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:16,122 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:16,122 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:16] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:16,122 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:16,130 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:16] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:16,300 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:16,300 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:16] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:16,369 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:16,369 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:15:18,824 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:18] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 18:15:18,857 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:18,857 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:15:26,909 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:26] "POST / HTTP/1.1" 200 -
+2024-10-16 18:15:26,931 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:26,933 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:26,934 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:26] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:26,934 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:26] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:26,949 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:26,949 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:26,955 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:26] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:26,955 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:26] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:27,027 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:27,043 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:27] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:15:27,055 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:15:27,055 - INFO - 127.0.0.1 - - [16/Oct/2024 18:15:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:17:42,942 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 18:17:42,943 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 18:17:42,947 - INFO -  * Restarting with stat
+2024-10-16 18:17:58,067 - WARNING -  * Debugger is active!
+2024-10-16 18:17:58,074 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 18:18:30,905 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:30] "POST / HTTP/1.1" 200 -
+2024-10-16 18:18:30,934 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:30,934 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:30,934 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:30] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:30,942 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:30] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:30,953 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:30,953 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:30,953 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:30] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:30,953 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:30] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:31,221 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:31,224 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:31] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:31,303 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:31,303 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:18:33,395 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:33] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 18:18:33,431 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:33,432 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 18:18:37,369 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:37] "POST / HTTP/1.1" 200 -
+2024-10-16 18:18:37,406 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:37,406 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:37] "[35m[1mGET /images/Symptoms.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:37,406 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:37,406 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:37] "[35m[1mGET /images/medimage.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:37,436 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:37,438 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:37] "[35m[1mGET /images/diagnosticimg.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:37,440 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:37,442 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:37] "[35m[1mGET /images/contactus.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:37,601 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:37,604 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:37] "[35m[1mGET /images/background.png HTTP/1.1[0m" 500 -
+2024-10-16 18:18:37,620 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 18:18:37,621 - INFO - 127.0.0.1 - - [16/Oct/2024 18:18:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 19:05:48,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 19:05:48,036 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 19:05:48,039 - INFO -  * Restarting with stat
+2024-10-16 19:06:01,260 - WARNING -  * Debugger is active!
+2024-10-16 19:06:01,264 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 19:06:24,657 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:24] "POST / HTTP/1.1" 200 -
+2024-10-16 19:06:24,660 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:24] "[33mGET /images/Symptoms.png HTTP/1.1[0m" 404 -
+2024-10-16 19:06:24,660 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:24] "[33mGET /images/medimage.png HTTP/1.1[0m" 404 -
+2024-10-16 19:06:24,677 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:24] "[33mGET /images/diagnosticimg.png HTTP/1.1[0m" 404 -
+2024-10-16 19:06:24,812 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:24] "[33mGET /images/background.png HTTP/1.1[0m" 404 -
+2024-10-16 19:06:24,820 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-16 19:06:29,322 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:29] "GET /symptoms_page HTTP/1.1" 200 -
+2024-10-16 19:06:37,323 - INFO - Symptoms Input: fever and sore throat, Diagnosis Output: Symptoms: fever and sore throat
+
+Possible Diagnosis:  Acute tonsillitis.
+2024-10-16 19:06:37,324 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:37] "POST /symptoms_page HTTP/1.1" 200 -
+2024-10-16 19:06:42,421 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:42] "GET /symptoms_page HTTP/1.1" 200 -
+2024-10-16 19:06:45,682 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:45] "GET /medimage_page HTTP/1.1" 200 -
+2024-10-16 19:06:51,320 - INFO - 127.0.0.1 - - [16/Oct/2024 19:06:51] "GET /diagnostic_page HTTP/1.1" 200 -
+2024-10-16 19:13:51,369 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 19:13:51,369 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 19:13:51,371 - INFO -  * Restarting with stat
+2024-10-16 19:14:04,788 - WARNING -  * Debugger is active!
+2024-10-16 19:14:04,788 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 19:14:18,049 - INFO - 127.0.0.1 - - [16/Oct/2024 19:14:18] "POST / HTTP/1.1" 200 -
+2024-10-16 19:14:18,181 - INFO - 127.0.0.1 - - [16/Oct/2024 19:14:18] "GET /static/images/medimage.png HTTP/1.1" 200 -
+2024-10-16 19:14:18,181 - INFO - 127.0.0.1 - - [16/Oct/2024 19:14:18] "GET /static/images/Symptoms.png HTTP/1.1" 200 -
+2024-10-16 19:14:18,226 - INFO - 127.0.0.1 - - [16/Oct/2024 19:14:18] "GET /static/images/diagnosticimg.png HTTP/1.1" 200 -
+2024-10-16 19:14:18,260 - INFO - 127.0.0.1 - - [16/Oct/2024 19:14:18] "[33mGET /images/background.png HTTP/1.1[0m" 404 -
+2024-10-16 19:17:24,249 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 19:17:24,249 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 19:17:24,253 - INFO -  * Restarting with stat
+2024-10-16 19:17:39,610 - WARNING -  * Debugger is active!
+2024-10-16 19:17:39,616 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 19:17:43,718 - INFO - 127.0.0.1 - - [16/Oct/2024 19:17:43] "POST / HTTP/1.1" 200 -
+2024-10-16 19:17:43,856 - INFO - 127.0.0.1 - - [16/Oct/2024 19:17:43] "[33mGET /images/background.png HTTP/1.1[0m" 404 -
+2024-10-16 19:17:43,887 - INFO - 127.0.0.1 - - [16/Oct/2024 19:17:43] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:17:43,902 - INFO - 127.0.0.1 - - [16/Oct/2024 19:17:43] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:17:43,903 - INFO - 127.0.0.1 - - [16/Oct/2024 19:17:43] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:17:43,930 - INFO - 127.0.0.1 - - [16/Oct/2024 19:17:43] "GET /static/images/contactus.png HTTP/1.1" 200 -
+2024-10-16 19:18:38,324 - INFO - 127.0.0.1 - - [16/Oct/2024 19:18:38] "POST / HTTP/1.1" 200 -
+2024-10-16 19:18:38,340 - INFO - 127.0.0.1 - - [16/Oct/2024 19:18:38] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:18:38,344 - INFO - 127.0.0.1 - - [16/Oct/2024 19:18:38] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:18:38,344 - INFO - 127.0.0.1 - - [16/Oct/2024 19:18:38] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:18:38,359 - INFO - 127.0.0.1 - - [16/Oct/2024 19:18:38] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:21:38,821 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 19:21:38,821 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 19:21:38,821 - INFO -  * Restarting with stat
+2024-10-16 19:21:53,922 - WARNING -  * Debugger is active!
+2024-10-16 19:21:53,926 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 19:22:21,497 - INFO - 127.0.0.1 - - [16/Oct/2024 19:22:21] "POST / HTTP/1.1" 200 -
+2024-10-16 19:22:21,626 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 19:22:21,628 - INFO - 127.0.0.1 - - [16/Oct/2024 19:22:21] "[35m[1mGET /background.png HTTP/1.1[0m" 500 -
+2024-10-16 19:22:21,664 - INFO - 127.0.0.1 - - [16/Oct/2024 19:22:21] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:22:21,672 - INFO - 127.0.0.1 - - [16/Oct/2024 19:22:21] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:22:21,674 - INFO - 127.0.0.1 - - [16/Oct/2024 19:22:21] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:22:21,679 - INFO - 127.0.0.1 - - [16/Oct/2024 19:22:21] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:23:45,117 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 19:23:45,117 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 19:23:45,117 - INFO -  * Restarting with stat
+2024-10-16 19:24:02,304 - WARNING -  * Debugger is active!
+2024-10-16 19:24:02,308 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 19:24:37,324 - INFO - 127.0.0.1 - - [16/Oct/2024 19:24:37] "POST / HTTP/1.1" 200 -
+2024-10-16 19:24:37,496 - INFO - 127.0.0.1 - - [16/Oct/2024 19:24:37] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:24:37,500 - INFO - 127.0.0.1 - - [16/Oct/2024 19:24:37] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:24:37,507 - INFO - 127.0.0.1 - - [16/Oct/2024 19:24:37] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:24:37,507 - INFO - 127.0.0.1 - - [16/Oct/2024 19:24:37] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:24:37,555 - INFO - 127.0.0.1 - - [16/Oct/2024 19:24:37] "GET /static/images/background.png HTTP/1.1" 200 -
+2024-10-16 19:38:41,990 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 19:38:41,990 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 19:38:41,995 - INFO -  * Restarting with stat
+2024-10-16 19:38:57,579 - WARNING -  * Debugger is active!
+2024-10-16 19:38:57,581 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 19:39:08,227 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:08] "POST / HTTP/1.1" 200 -
+2024-10-16 19:39:08,403 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:08] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:08,411 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:08] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:08,417 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:08] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:08,418 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:08] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:08,459 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:08] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:24,187 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:24] "GET /search?query=heart+diseases HTTP/1.1" 200 -
+2024-10-16 19:39:35,728 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:35] "GET / HTTP/1.1" 200 -
+2024-10-16 19:39:35,750 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:35] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:35,750 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:35] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:35,750 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:35] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:35,770 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:35] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:39:35,861 - INFO - 127.0.0.1 - - [16/Oct/2024 19:39:35] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:09,255 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:09] "GET /search?query=heart+disease+treatment HTTP/1.1" 200 -
+2024-10-16 19:40:19,740 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:19] "GET / HTTP/1.1" 200 -
+2024-10-16 19:40:19,761 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:19] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:19,771 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:19] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:19,777 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:19] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:19,781 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:19] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:19,881 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:19] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:27,189 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:27] "GET /search?query=fever HTTP/1.1" 200 -
+2024-10-16 19:40:39,569 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:39] "GET / HTTP/1.1" 200 -
+2024-10-16 19:40:39,595 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:39] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:39,595 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:39] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:39,595 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:39] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:39,595 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:39] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:40:39,705 - INFO - 127.0.0.1 - - [16/Oct/2024 19:40:39] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 19:51:04,755 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 19:51:04,755 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 19:51:04,758 - INFO -  * Restarting with stat
+2024-10-16 19:51:19,484 - WARNING -  * Debugger is active!
+2024-10-16 19:51:19,487 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 19:51:59,565 - INFO - 127.0.0.1 - - [16/Oct/2024 19:51:59] "GET / HTTP/1.1" 200 -
+2024-10-16 19:51:59,698 - INFO - 127.0.0.1 - - [16/Oct/2024 19:51:59] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 19:51:59,706 - INFO - 127.0.0.1 - - [16/Oct/2024 19:51:59] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 19:51:59,763 - INFO - 127.0.0.1 - - [16/Oct/2024 19:51:59] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 19:51:59,771 - INFO - 127.0.0.1 - - [16/Oct/2024 19:51:59] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 19:51:59,779 - INFO - 127.0.0.1 - - [16/Oct/2024 19:51:59] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 20:57:37,965 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 20:57:37,965 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 20:57:37,967 - INFO -  * Restarting with stat
+2024-10-16 20:57:51,769 - WARNING -  * Debugger is active!
+2024-10-16 20:57:51,789 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 20:58:09,524 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:09] "GET / HTTP/1.1" 200 -
+2024-10-16 20:58:09,677 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:09] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 20:58:09,678 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:09] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 20:58:09,733 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:09] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 20:58:09,741 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:09] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 20:58:09,774 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:09] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 20:58:09,827 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 20:58:09,827 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 20:58:13,127 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:13] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 20:58:14,346 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 20:58:14,347 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 20:58:24,281 - INFO - Symptoms Input: fever and sore throat, Diagnosis Output: Symptoms: fever and sore throat
+
+Possible Diagnosis:  Acute tonsillitis.
+2024-10-16 20:58:24,282 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:24] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 20:58:24,298 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 20:58:24,299 - INFO - 127.0.0.1 - - [16/Oct/2024 20:58:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:02:37,746 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:37] "GET / HTTP/1.1" 200 -
+2024-10-16 21:02:37,788 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:37] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:02:37,788 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:37] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:02:37,799 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:37] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:02:37,801 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:37] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:02:37,976 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:37] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:02:38,053 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:02:38,053 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:02:39,622 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:39] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 21:02:39,665 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:02:39,665 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:02:50,709 - INFO - Symptoms Input: fever and sore throat, Diagnosis Output: Symptoms: fever and sore throat
+
+Possible Diagnosis:  Acute tonsillitis.
+2024-10-16 21:02:50,725 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:50] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 21:02:50,748 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:02:50,749 - INFO - 127.0.0.1 - - [16/Oct/2024 21:02:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:03:45,712 - INFO - Symptoms Input: headache and body pain, Diagnosis Output: Symptoms: fever and sore throat
+
+Possible Diagnosis:  Symptoms: headache and body pain
+
+Possible Diagnosis:  headache and body pain Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever and sore throat Possible Diagnosis: fever
+2024-10-16 21:03:45,727 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:45] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 21:03:45,749 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:03:45,750 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:03:58,561 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:58] "GET / HTTP/1.1" 200 -
+2024-10-16 21:03:58,580 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:58] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:03:58,582 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:58] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:03:58,596 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:58] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:03:58,599 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:58] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:03:58,674 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:58] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:03:58,679 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:03:58,686 - INFO - 127.0.0.1 - - [16/Oct/2024 21:03:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:04:00,558 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:00] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 21:04:00,590 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:04:00,591 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:04:23,662 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:23] "GET / HTTP/1.1" 200 -
+2024-10-16 21:04:23,697 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:23] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:04:23,698 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:23] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:04:23,711 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:23] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:04:23,715 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:23] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:04:23,944 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:23] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:04:23,958 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:04:23,960 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:04:25,717 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:25] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 21:04:25,774 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:04:25,777 - INFO - 127.0.0.1 - - [16/Oct/2024 21:04:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:05:05,498 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 21:05:05,498 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 21:05:05,498 - INFO -  * Restarting with stat
+2024-10-16 21:05:19,973 - WARNING -  * Debugger is active!
+2024-10-16 21:05:19,973 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 21:06:00,425 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:00] "GET / HTTP/1.1" 200 -
+2024-10-16 21:06:00,539 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:00] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:00,540 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:00] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:00,561 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:00] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:00,563 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:00] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:00,826 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:00] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:01,753 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:06:01,758 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:06:03,378 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:03] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 21:06:03,416 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:06:03,417 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:06:10,710 - INFO - Symptoms Input: fever and sore throat, Diagnosis Output: Symptoms: fever and sore throat
+
+Possible Diagnosis:  Acute tonsillitis.
+2024-10-16 21:06:10,711 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:10] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 21:06:10,735 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:06:10,736 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:06:13,241 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:13] "GET / HTTP/1.1" 200 -
+2024-10-16 21:06:13,259 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:13] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:13,260 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:13] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:13,280 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:13] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:13,282 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:13] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:13,353 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:13] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:06:13,362 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:06:13,362 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:06:14,713 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:14] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 21:06:14,741 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:06:14,743 - INFO - 127.0.0.1 - - [16/Oct/2024 21:06:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:07:02,652 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 21:07:02,652 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 21:07:02,652 - INFO -  * Restarting with stat
+2024-10-16 21:07:18,569 - WARNING -  * Debugger is active!
+2024-10-16 21:07:18,572 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 21:09:06,902 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:06] "GET / HTTP/1.1" 200 -
+2024-10-16 21:09:07,044 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:07] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:09:07,044 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:07] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:09:07,076 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:07] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:09:07,076 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:07] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:09:07,325 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:07] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:09:07,933 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:09:07,935 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:09:09,707 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:09] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 21:09:09,745 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:09:09,746 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:09:17,861 - INFO - Symptoms Input: headache and bodypain, Diagnosis Output: Symptoms: headache and bodypain
+
+Possible Diagnosis:  A case report.
+2024-10-16 21:09:17,861 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:17] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 21:09:17,883 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:09:17,884 - INFO - 127.0.0.1 - - [16/Oct/2024 21:09:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:26:28,694 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 21:26:28,694 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 21:26:28,694 - INFO -  * Restarting with stat
+2024-10-16 21:26:42,920 - WARNING -  * Debugger is active!
+2024-10-16 21:26:42,925 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 21:27:13,665 - INFO - 127.0.0.1 - - [16/Oct/2024 21:27:13] "GET / HTTP/1.1" 200 -
+2024-10-16 21:27:13,807 - INFO - 127.0.0.1 - - [16/Oct/2024 21:27:13] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:27:13,822 - INFO - 127.0.0.1 - - [16/Oct/2024 21:27:13] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:27:13,854 - INFO - 127.0.0.1 - - [16/Oct/2024 21:27:13] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:27:13,879 - INFO - 127.0.0.1 - - [16/Oct/2024 21:27:13] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:27:14,158 - INFO - 127.0.0.1 - - [16/Oct/2024 21:27:14] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:27:14,225 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:27:14,225 - INFO - 127.0.0.1 - - [16/Oct/2024 21:27:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:28:25,569 - ERROR - Unhandled Exception: Install Flask with the 'async' extra in order to use async views.
+2024-10-16 21:28:25,571 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:25] "[35m[1mGET /symptoms HTTP/1.1[0m" 500 -
+2024-10-16 21:28:25,592 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:25] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:25,599 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:25] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:25,611 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:25] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:25,612 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:25] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:25,723 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:25] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:25,728 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:28:25,728 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:28:28,539 - ERROR - Unhandled Exception: Install Flask with the 'async' extra in order to use async views.
+2024-10-16 21:28:28,540 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:28] "[35m[1mGET /symptoms HTTP/1.1[0m" 500 -
+2024-10-16 21:28:28,556 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:28] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:28,565 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:28] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:28,570 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:28] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:28,570 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:28] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:28,628 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:28] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:28,644 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:28:28,645 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:28:31,099 - ERROR - Unhandled Exception: Install Flask with the 'async' extra in order to use async views.
+2024-10-16 21:28:31,100 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:31] "[35m[1mGET /medimage HTTP/1.1[0m" 500 -
+2024-10-16 21:28:31,119 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:31] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:31,121 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:31] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:31,131 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:31] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:31,132 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:31] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:31,195 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:31] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:28:31,206 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:28:31,206 - INFO - 127.0.0.1 - - [16/Oct/2024 21:28:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:29:23,997 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:23] "GET /search?query=heart+disease+treatment HTTP/1.1" 200 -
+2024-10-16 21:29:24,103 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:29:24,104 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:29:29,590 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:29] "GET / HTTP/1.1" 200 -
+2024-10-16 21:29:29,615 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:29] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:29,628 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:29] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:29,630 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:29] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:29,635 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:29] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:29,726 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:29] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:29,733 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:29:29,733 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:29:31,216 - ERROR - Unhandled Exception: Install Flask with the 'async' extra in order to use async views.
+2024-10-16 21:29:31,218 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:31] "[35m[1mGET /symptoms HTTP/1.1[0m" 500 -
+2024-10-16 21:29:31,239 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:31] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:31,250 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:31] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:31,251 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:31] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:31,256 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:31] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:31,352 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:31] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:29:31,356 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:29:31,356 - INFO - 127.0.0.1 - - [16/Oct/2024 21:29:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:31:12,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 21:31:12,536 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 21:31:12,539 - INFO -  * Restarting with stat
+2024-10-16 21:31:27,051 - WARNING -  * Debugger is active!
+2024-10-16 21:31:27,069 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 21:31:46,392 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:46] "GET / HTTP/1.1" 200 -
+2024-10-16 21:31:46,503 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:46] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:31:46,503 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:46] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:31:46,534 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:46] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:31:46,534 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:46] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:31:46,816 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:46] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:31:47,582 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:31:47,585 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:31:49,256 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:49] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 21:31:49,555 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:31:49,557 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:31:58,671 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:58] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 21:31:58,698 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:31:58,700 - INFO - 127.0.0.1 - - [16/Oct/2024 21:31:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:33:03,793 - INFO - 127.0.0.1 - - [16/Oct/2024 21:33:03] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 21:33:03,842 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:33:03,844 - INFO - 127.0.0.1 - - [16/Oct/2024 21:33:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:33:05,157 - INFO - 127.0.0.1 - - [16/Oct/2024 21:33:05] "POST /symptoms HTTP/1.1" 200 -
+2024-10-16 21:34:22,833 - INFO - 127.0.0.1 - - [16/Oct/2024 21:34:22] "GET / HTTP/1.1" 200 -
+2024-10-16 21:34:22,855 - INFO - 127.0.0.1 - - [16/Oct/2024 21:34:22] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 21:34:22,856 - INFO - 127.0.0.1 - - [16/Oct/2024 21:34:22] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 21:34:22,869 - INFO - 127.0.0.1 - - [16/Oct/2024 21:34:22] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 21:34:22,871 - INFO - 127.0.0.1 - - [16/Oct/2024 21:34:22] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 21:34:22,956 - INFO - 127.0.0.1 - - [16/Oct/2024 21:34:22] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 21:34:22,967 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:34:22,967 - INFO - 127.0.0.1 - - [16/Oct/2024 21:34:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:35:55,626 - INFO - 127.0.0.1 - - [16/Oct/2024 21:35:55] "GET /diagnostic HTTP/1.1" 200 -
+2024-10-16 21:35:55,655 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:35:55,657 - INFO - 127.0.0.1 - - [16/Oct/2024 21:35:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 21:36:09,281 - INFO - Patient Data: a 67 year old man with heart diseases, Treatment Plan: Patient Data: a 67 year old man with heart diseases
+
+Treatment Plan:  a case report.
+2024-10-16 21:36:09,282 - INFO - 127.0.0.1 - - [16/Oct/2024 21:36:09] "POST /diagnostic HTTP/1.1" 200 -
+2024-10-16 21:36:09,300 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 21:36:09,301 - INFO - 127.0.0.1 - - [16/Oct/2024 21:36:09] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:00:02,014 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-16 22:00:02,015 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-16 22:00:02,016 - INFO -  * Restarting with stat
+2024-10-16 22:00:18,870 - WARNING -  * Debugger is active!
+2024-10-16 22:00:18,870 - INFO -  * Debugger PIN: 130-236-691
+2024-10-16 22:01:42,745 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:42] "GET / HTTP/1.1" 200 -
+2024-10-16 22:01:42,859 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:42] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:01:42,859 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:42] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:01:42,859 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:42] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:01:42,876 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:42] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:01:43,346 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:43] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 22:01:44,213 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:01:44,216 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:01:47,392 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:47] "GET /medimage HTTP/1.1" 200 -
+2024-10-16 22:01:48,088 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:01:48,089 - INFO - 127.0.0.1 - - [16/Oct/2024 22:01:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:13:09,379 - INFO - Image Generated for prompt: x ray of lung
+2024-10-16 22:13:09,379 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:09] "POST /medimage HTTP/1.1" 200 -
+2024-10-16 22:13:10,083 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:13:10,098 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:13:52,883 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:52] "GET / HTTP/1.1" 200 -
+2024-10-16 22:13:52,903 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:52] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:13:52,904 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:52] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:13:52,921 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:52] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:13:52,922 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:52] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:13:53,088 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:53] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 22:13:53,114 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:13:53,114 - INFO - 127.0.0.1 - - [16/Oct/2024 22:13:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:15:30,776 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:30] "GET / HTTP/1.1" 200 -
+2024-10-16 22:15:30,793 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:30] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:30,793 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:30] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:30,812 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:30] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:30,812 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:30] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:31,171 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:31,171 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:31] "[35m[1mGET /static/images/background1.png HTTP/1.1[0m" 500 -
+2024-10-16 22:15:31,673 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:31,676 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:15:47,893 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:47] "GET / HTTP/1.1" 200 -
+2024-10-16 22:15:47,908 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:47] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:47,908 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:47] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:47,929 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:47] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:47,932 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:47] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:48,011 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:48,012 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:48] "[35m[1mGET /static/images/background1.png HTTP/1.1[0m" 500 -
+2024-10-16 22:15:48,022 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:48,024 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:15:49,578 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:49] "GET / HTTP/1.1" 200 -
+2024-10-16 22:15:49,605 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:49] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:49,605 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:49] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:49,610 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:49] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:49,614 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:49] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:49,669 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:49,670 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:49] "[35m[1mGET /static/images/background1.png HTTP/1.1[0m" 500 -
+2024-10-16 22:15:49,670 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:49,670 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:15:50,017 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "GET / HTTP/1.1" 200 -
+2024-10-16 22:15:50,045 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,046 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,056 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,057 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,112 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:50,113 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[35m[1mGET /static/images/background1.png HTTP/1.1[0m" 500 -
+2024-10-16 22:15:50,113 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:50,113 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:15:50,184 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "GET / HTTP/1.1" 200 -
+2024-10-16 22:15:50,213 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,218 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,220 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,225 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,281 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:50,283 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[35m[1mGET /static/images/background1.png HTTP/1.1[0m" 500 -
+2024-10-16 22:15:50,283 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:50,283 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:15:50,314 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "GET / HTTP/1.1" 200 -
+2024-10-16 22:15:50,330 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,331 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,340 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,343 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:15:50,400 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:50,401 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[35m[1mGET /static/images/background1.png HTTP/1.1[0m" 500 -
+2024-10-16 22:15:50,414 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:15:50,414 - INFO - 127.0.0.1 - - [16/Oct/2024 22:15:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:16:14,230 - INFO - 127.0.0.1 - - [16/Oct/2024 22:16:14] "GET / HTTP/1.1" 200 -
+2024-10-16 22:16:14,261 - INFO - 127.0.0.1 - - [16/Oct/2024 22:16:14] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:16:14,264 - INFO - 127.0.0.1 - - [16/Oct/2024 22:16:14] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:16:14,273 - INFO - 127.0.0.1 - - [16/Oct/2024 22:16:14] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:16:14,273 - INFO - 127.0.0.1 - - [16/Oct/2024 22:16:14] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:16:14,338 - INFO - 127.0.0.1 - - [16/Oct/2024 22:16:14] "GET /static/images/background1.png HTTP/1.1" 200 -
+2024-10-16 22:16:14,338 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:16:14,354 - INFO - 127.0.0.1 - - [16/Oct/2024 22:16:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:18:37,982 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:37] "GET / HTTP/1.1" 200 -
+2024-10-16 22:18:38,013 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:38] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:18:38,018 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:38] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:18:38,027 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:38] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:18:38,030 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:38] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:18:38,107 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:38] "GET /static/images/background.png HTTP/1.1" 200 -
+2024-10-16 22:18:38,121 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:18:38,122 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:18:45,304 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:18:45,305 - INFO - 127.0.0.1 - - [16/Oct/2024 22:18:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:19:10,696 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:10] "GET /symptoms HTTP/1.1" 200 -
+2024-10-16 22:19:10,741 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:19:10,743 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:19:14,161 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:14] "GET / HTTP/1.1" 200 -
+2024-10-16 22:19:14,170 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:14] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:14,195 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:14] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:14,198 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:14] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:14,202 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:14] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:14,279 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:14] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:14,300 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:19:14,300 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:19:16,393 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:16] "GET /medimage HTTP/1.1" 200 -
+2024-10-16 22:19:17,127 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:19:17,128 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:19:17,777 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "GET / HTTP/1.1" 200 -
+2024-10-16 22:19:17,803 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:17,803 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:17,810 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:17,813 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:17,865 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:17,903 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:19:17,903 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:19:20,441 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:20] "GET /diagnostic HTTP/1.1" 200 -
+2024-10-16 22:19:21,086 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:19:21,088 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-10-16 22:19:22,226 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:22] "GET / HTTP/1.1" 200 -
+2024-10-16 22:19:22,250 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:22] "[36mGET /static/images/Symptoms.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:22,253 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:22] "[36mGET /static/images/medimage.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:22,256 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:22] "[36mGET /static/images/diagnosticimg.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:22,261 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:22] "[36mGET /static/images/contactus.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:22,354 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:22] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2024-10-16 22:19:22,361 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-16 22:19:22,362 - INFO - 127.0.0.1 - - [16/Oct/2024 22:19:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -

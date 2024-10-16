@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Medical Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .search-bar input:focus {
+            outline: none;
+            border: 2px solid #4CAF50;
+        }
+
+        .bg-overlay {
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('{{ url_for('static', filename='images/background.png') }}');">
+        <div class="absolute inset-0 bg-overlay"></div>
+        <div class="container mx-auto px-6 lg:px-12 flex flex-col justify-center items-center h-full relative z-10">
+            <h1 class="text-white text-5xl md:text-6xl font-bold text-center">Your Health, Our Priority</h1>
+            <p class="text-white text-lg md:text-xl mt-4 text-center">Professional healthcare services for you and your family</p>
+            <div class="search-bar mt-8 w-full max-w-3xl flex items-center">
+                <form action="/search" method="get" class="w-full flex">
+                    <input 
+                        type="text" 
+                        name="query" 
+                        placeholder="Search medical services or research..." 
+                        class="w-full px-4 py-2 text-lg border rounded-l-md" 
+                        required>
+                    <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-r-md">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </form>
+            </div>
+            
+    </section>
+    
+
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 lg:px-12 text-center">
+            <h2 class="text-4xl font-semibold text-gray-800 mb-8">Our Medical Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Card 1: Symptoms -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <a href="{{ url_for('symptoms_page') }}">
+                        <img src="{{ url_for('static', filename='images/Symptoms.png') }}" alt="Symptoms" class="w-full h-48 object-cover rounded-t-lg">
+                    </a>
+                    <h3 class="text-2xl font-semibold mt-4">Symptoms</h3>
+                    <p class="text-gray-600 mt-2">Input your symptoms and get details of your infections.</p>
+                </div>
+
+                <!-- Card 2: MedImage Generator -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <a href="{{ url_for('medimage_page') }}">
+                        <img src="{{ url_for('static', filename='images/medimage.png') }}" alt="Medimage" class="w-full h-48 object-cover rounded-t-lg">
+                    </a>
+                    <h3 class="text-2xl font-semibold mt-4">MedImage Generator</h3>
+                    <p class="text-gray-600 mt-2">Give input for the medical image.</p>
+                </div>
+
+                <!-- Card 3: Diagnostic Report -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <a href="{{ url_for('diagnostic_page') }}">
+                        <img src="{{ url_for('static', filename='images/diagnosticimg.png') }}" alt="Diagnostic Report" class="w-full h-48 object-cover rounded-t-lg">
+                    </a>
+                    <h3 class="text-2xl font-semibold mt-4">Diagnostic Report</h3>
+                    <p class="text-gray-600 mt-2">Give context about your medical conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 lg:px-12">
+            <h2 class="text-4xl font-semibold text-gray-800 text-center mb-8">Contact Us</h2>
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="md:w-1/2">
+                    <img src="{{ url_for('static', filename='images/contactus.png') }}" alt="Hospital building" class="rounded-lg w-full h-full object-cover">
+                </div>
+                <div class="md:w-1/2 md:pl-16 mt-8 md:mt-0">
+                    <form action="https://formspree.io/f/mldeeogb" method="POST" class="bg-white shadow-md rounded-lg p-8 space-y-4">
+                        <div>
+                            <label for="name" class="block text-lg font-medium text-gray-700">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name"
+                                   class="w-full px-4 py-2 border rounded-md focus:ring-green-500 focus:border-green-500" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-lg font-medium text-gray-700">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email"
+                                   class="w-full px-4 py-2 border rounded-md focus:ring-green-500 focus:border-green-500" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-lg font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message..." rows="4"
+                                      class="w-full px-4 py-2 border rounded-md focus:ring-green-500 focus:border-green-500" required></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-md">Send Message</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-6 lg:px-12 flex justify-between items-center">
+            <p class="text-white">&copy; 2024 Professional Medical Website. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
